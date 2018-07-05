@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BudgetVc" customModule="ManageMoney" customModuleProvider="target">
+            <connections>
+                <outlet property="cancelBtn" destination="vCr-5O-o8m" id="D5d-3C-yfP"/>
+                <outlet property="newBudget" destination="Pyb-Q9-3Ug" id="Wr1-Js-VTZ"/>
+                <outlet property="okBtn" destination="a8F-Mk-Wqt" id="L3x-6V-UoA"/>
+                <outlet property="textView" destination="Dbs-6s-QaK" id="bAf-pa-Cmw"/>
+                <outlet property="view" destination="CRj-SJ-t5A" id="y03-uc-lgm"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="CRj-SJ-t5A">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="190"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4T3-x2-ggP">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change Your Budget" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a8Y-lg-qV9">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+                            <color key="backgroundColor" red="0.058823529409999999" green="0.36862745099999999" blue="0.47058823529999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.33073177929999997" green="0.73939108850000002" blue="0.83434110880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="a8Y-lg-qV9" firstAttribute="leading" secondItem="4T3-x2-ggP" secondAttribute="leading" id="Iyd-ay-A5d"/>
+                        <constraint firstAttribute="bottom" secondItem="a8Y-lg-qV9" secondAttribute="bottom" id="WhC-un-bjU"/>
+                        <constraint firstAttribute="trailing" secondItem="a8Y-lg-qV9" secondAttribute="trailing" id="oFf-cn-YbL"/>
+                        <constraint firstAttribute="height" constant="40" id="p4D-1G-8Js"/>
+                        <constraint firstItem="a8Y-lg-qV9" firstAttribute="top" secondItem="4T3-x2-ggP" secondAttribute="top" id="wYa-9Y-NQt"/>
+                    </constraints>
+                </view>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="n4M-In-Efv">
+                    <rect key="frame" x="10" y="45" width="355" height="80"/>
+                    <subviews>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Monthly budget mode how much you want to spent in month" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Dbs-6s-QaK">
+                            <rect key="frame" x="0.0" y="0.0" width="355" height="50"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pyb-Q9-3Ug">
+                            <rect key="frame" x="0.0" y="50" width="355" height="30"/>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="D02-UJ-Gz6"/>
+                    </constraints>
+                </stackView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vCr-5O-o8m">
+                    <rect key="frame" x="65" y="130" width="70" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="17w-lG-KfN"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                    <state key="normal" title="Cancel">
+                        <color key="titleColor" red="0.058823529409999999" green="0.36862745099999999" blue="0.47058823529999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="cancelButtonAction:" destination="-1" eventType="touchUpInside" id="0sv-T0-58x"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a8F-Mk-Wqt">
+                    <rect key="frame" x="190" y="135" width="40" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="nvp-ML-2k9"/>
+                        <constraint firstAttribute="width" constant="40" id="ucv-C9-7hE"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                    <state key="normal" title="Ok">
+                        <color key="titleColor" red="0.058823529409999999" green="0.36862745099999999" blue="0.47058823529999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="okButtonAction:" destination="-1" eventType="touchUpInside" id="SiY-oz-Cy2"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="vCr-5O-o8m" secondAttribute="bottom" constant="20" symbolic="YES" id="0sX-ik-QOk"/>
+                <constraint firstItem="vCr-5O-o8m" firstAttribute="leading" secondItem="n4M-In-Efv" secondAttribute="leading" constant="55" id="6vz-85-Q4d"/>
+                <constraint firstItem="n4M-In-Efv" firstAttribute="centerX" secondItem="CRj-SJ-t5A" secondAttribute="centerX" id="Jfx-sR-Jso"/>
+                <constraint firstItem="4T3-x2-ggP" firstAttribute="leading" secondItem="Etf-Mq-t5S" secondAttribute="leading" id="Kc5-75-D0t"/>
+                <constraint firstItem="Etf-Mq-t5S" firstAttribute="trailing" secondItem="n4M-In-Efv" secondAttribute="trailing" constant="10" id="KnM-31-mSb"/>
+                <constraint firstItem="Etf-Mq-t5S" firstAttribute="bottom" secondItem="a8F-Mk-Wqt" secondAttribute="bottom" constant="20" id="Vgd-d5-Ioi"/>
+                <constraint firstItem="vCr-5O-o8m" firstAttribute="top" secondItem="n4M-In-Efv" secondAttribute="bottom" constant="5" id="c4u-i9-QIW"/>
+                <constraint firstItem="Etf-Mq-t5S" firstAttribute="trailing" secondItem="4T3-x2-ggP" secondAttribute="trailing" id="kaE-Xw-Fm2"/>
+                <constraint firstItem="4T3-x2-ggP" firstAttribute="top" secondItem="CRj-SJ-t5A" secondAttribute="top" id="opg-uy-zcy"/>
+                <constraint firstItem="n4M-In-Efv" firstAttribute="leading" secondItem="Etf-Mq-t5S" secondAttribute="leading" constant="10" id="pUh-Gp-Nie"/>
+                <constraint firstItem="n4M-In-Efv" firstAttribute="top" secondItem="4T3-x2-ggP" secondAttribute="bottom" constant="5" id="v45-Kb-ndx"/>
+                <constraint firstItem="a8F-Mk-Wqt" firstAttribute="leading" secondItem="vCr-5O-o8m" secondAttribute="trailing" constant="55" id="xIU-OP-pyw"/>
+                <constraint firstItem="a8F-Mk-Wqt" firstAttribute="top" secondItem="n4M-In-Efv" secondAttribute="bottom" constant="10" id="xWB-Sd-n2i"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="Etf-Mq-t5S"/>
+            <point key="canvasLocation" x="33.5" y="-184"/>
+        </view>
+    </objects>
+</document>

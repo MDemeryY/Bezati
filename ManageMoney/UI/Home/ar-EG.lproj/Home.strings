@@ -1,0 +1,39 @@
+
+/* Class = "UIButton"; normalTitle = "Setting"; ObjectID = "8su-cL-t8w"; */
+"8su-cL-t8w.normalTitle" = "الاعدادات";
+
+/* Class = "UIButton"; normalTitle = "Monthly Sataics"; ObjectID = "P4g-DI-Itw"; */
+"P4g-DI-Itw.normalTitle" = "الاحصائيات الشهرية";
+
+/* Class = "UIButton"; normalTitle = "Calender"; ObjectID = "Rvr-3X-oBc"; */
+"Rvr-3X-oBc.normalTitle" = "الاجندة";
+
+/* Class = "UITabBarItem"; title = "MONTHLY"; ObjectID = "XGw-GZ-A1q"; */
+"XGw-GZ-A1q.title" = "الشهرى";
+
+/* Class = "UITabBarItem"; title = "DAILY"; ObjectID = "XTw-t8-D3h"; */
+"XTw-t8-D3h.title" = "اليومي";
+
+/* Class = "UITabBarItem"; title = "WEEKLY"; ObjectID = "ZhG-SN-qlG"; */
+"ZhG-SN-qlG.title" = "الاسبوعي";
+
+/* Class = "UIButton"; normalTitle = "My Account"; ObjectID = "aLQ-m9-80a"; */
+"aLQ-m9-80a.normalTitle" = "حسابي";
+
+/* Class = "UIButton"; normalTitle = "Expect"; ObjectID = "dMN-Yw-ygI"; */
+"dMN-Yw-ygI.normalTitle" = "التوقعات";
+
+/* Class = "UIButton"; normalTitle = "Category"; ObjectID = "eW2-GM-MEx"; */
+"eW2-GM-MEx.normalTitle" = "الاقسام";
+
+/* Class = "UIButton"; normalTitle = "Account"; ObjectID = "kvj-kH-JS7"; */
+"kvj-kH-JS7.normalTitle" = "الحساب";
+
+/* Class = "UIButton"; normalTitle = "Choose Date"; ObjectID = "mCB-WC-dn3"; */
+"mCB-WC-dn3.normalTitle" = "اختار تاريخ";
+
+/* Class = "UITabBarItem"; title = "CALENDAR"; ObjectID = "vXf-Fm-0v3"; */
+"vXf-Fm-0v3.title" = "الاجندة";
+
+/* Class = "UILabel"; text = "Setting"; ObjectID = "znY-Fx-xcx"; */
+"znY-Fx-xcx.text" = "الاعدادات";

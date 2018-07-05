@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "Income"; ObjectID = "PEw-uS-fuq"; */
+"PEw-uS-fuq.text" = "الدخل";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Rgv-49-DfF"; */
+"Rgv-49-DfF.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Expense"; ObjectID = "vrw-3d-frs"; */
+"vrw-3d-frs.text" = "المستهلك";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "yG4-FT-ziy"; */
+"yG4-FT-ziy.normalTitle" = "Button";

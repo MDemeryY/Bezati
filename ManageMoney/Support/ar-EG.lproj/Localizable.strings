@@ -1,0 +1,53 @@
+/* 
+  Localizable.strings
+  ManageMoney
+
+  Created by admin101 on 4/14/18.
+  Copyright © 2018 demi. All rights reserved.
+*/
+
+
+"Login" = "تسجيل الدخول" ;
+"Forget Password ? " = "نسيت كلمة المرور ؟" ;
+"Creat New account" = "انشاء حساب جديد" ;
+"Enter Email " = "ادخل البريد الالكتروني" ;
+"Enter Password" = "ادخل كلمة المرور" ;
+"LOGIN" = "تسجيل الدخول" ;
+"Password" = "كلمة المرور";
+"Starday" = "السبت";
+"Email" = "البريدالالكتروني";
+"USD" = "دولار امريكي";
+"Registration" = "انشاء حساب";
+"Register" = "تسجيل";
+"Item" = "عنصر";
+"Name" = "الاسم";
+"Enter your Mail " = "ادخل بريدك الالكتروني";
+"Forget Password" = "اعادة كلمة المرور";
+"Item" = "عنصر" ;
+"Send" = "ارسال" ;
+"Setting" = "الاعدادات" ;
+"Monthly Sataics" = "الاحصائيات الشهرية" ;
+"Calender" = "الاجندة" ;
+"MONTHLY" = "الشهرى" ;
+"DAILY" = "اليومي" ;
+"WEEKLY" = "الاسبوعي" ;
+"My Account" = "حسابي" ;
+"Expect" = "التوقعات" ;
+"Category" = "الاقسام" ;
+"Account" = "الحساب" ;
+"Choose Date" = "اختار تاريخ" ;
+"CALENDAR" = "الاجندة" ;
+"Setting" = "الاعدادات" ;
+"Email" = "البريدالالكتروني";
+"USD" = "دولار امريكي";
+"Name" = "الاسم";
+"UPDATE" = "تعديل";
+"Expense" = "المستهلك" ;
+"Add" = "اضافه";
+"Enter item Name" = "ادخل اسم العنصر";
+"Add Note ..." = "اضافه ملاحظه";
+" Price " = " السعر ";
+"Income" = "الدخل";
+"Add Item " = "اضافة عنصر جديد";
+"Cancel" = "الغاء";
+

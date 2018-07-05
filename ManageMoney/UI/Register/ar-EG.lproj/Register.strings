@@ -1,0 +1,27 @@
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "14a-EI-UbA"; */
+"14a-EI-UbA.placeholder" = "كلمة المرور";
+
+/* Class = "UIButton"; normalTitle = "Starday"; ObjectID = "5cY-3g-a59"; */
+"5cY-3g-a59.normalTitle" = "السبت";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "6Jc-hj-2TW"; */
+"6Jc-hj-2TW.placeholder" = "البريدالالكتروني";
+
+/* Class = "UIButton"; normalTitle = "USD"; ObjectID = "Bx6-Ju-rJz"; */
+"Bx6-Ju-rJz.normalTitle" = "دولار امريكي";
+
+/* Class = "UILabel"; text = "Registration"; ObjectID = "KLB-Et-a7e"; */
+"KLB-Et-a7e.text" = "انشاء حساب";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "KXw-19-Wc1"; */
+"KXw-19-Wc1.normalTitle" = "تسجيل";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "PGM-WO-1ne"; */
+"PGM-WO-1ne.title" = "عنصر";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "vSA-GS-jEV"; */
+"vSA-GS-jEV.placeholder" = "الاسم";
+
+
+

@@ -1,0 +1,12 @@
+
+/* Class = "UITextView"; text = "Monthly budget mode how much you want to spent in month"; ObjectID = "Dbs-6s-QaK"; */
+"Dbs-6s-QaK.text" = "كم المبلغ الذي تريد وضعه ف الميزانيه";
+
+/* Class = "UIButton"; normalTitle = "Ok"; ObjectID = "a8F-Mk-Wqt"; */
+"a8F-Mk-Wqt.normalTitle" = "تم";
+
+/* Class = "UILabel"; text = "Change Your Budget"; ObjectID = "a8Y-lg-qV9"; */
+"a8Y-lg-qV9.text" = "تغيير الميزانية";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "vCr-5O-o8m"; */
+"vCr-5O-o8m.normalTitle" = "الغاء";

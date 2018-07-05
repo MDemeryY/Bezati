@@ -1,0 +1,12 @@
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "VhZ-Gz-qkz"; */
+"VhZ-Gz-qkz.placeholder" = "البريدالالكتروني";
+
+/* Class = "UIButton"; normalTitle = "USD"; ObjectID = "W7w-gV-3ef"; */
+"W7w-gV-3ef.normalTitle" = "دولار امريكي";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "dQ3-09-ExU"; */
+"dQ3-09-ExU.placeholder" = "الاسم";
+
+/* Class = "UIButton"; normalTitle = "UPDATE"; ObjectID = "oJe-Yz-CPp"; */
+"oJe-Yz-CPp.normalTitle" = "تعديل";

@@ -1,0 +1,24 @@
+
+/* Class = "UIButton"; normalTitle = "Expense"; ObjectID = "3L4-U7-5sg"; */
+"3L4-U7-5sg.normalTitle" = "المستهلك";
+
+/* Class = "UIButton"; normalTitle = "Add"; ObjectID = "8em-zM-mBf"; */
+"8em-zM-mBf.normalTitle" = "اضافه";
+
+/* Class = "UITextField"; placeholder = "Enter item Name"; ObjectID = "DXZ-4Y-YDC"; */
+"DXZ-4Y-YDC.placeholder" = "اسم العنصر";
+
+/* Class = "UITextField"; placeholder = "Add Note ..."; ObjectID = "MoE-DE-0o6"; */
+"MoE-DE-0o6.placeholder" = "اضافه ملاحظه";
+
+/* Class = "UITextField"; placeholder = " Price "; ObjectID = "RP5-ij-tLR"; */
+"RP5-ij-tLR.placeholder" = "السعر";
+
+/* Class = "UIButton"; normalTitle = "Income"; ObjectID = "Vus-bN-wc1"; */
+"Vus-bN-wc1.normalTitle" = "الدخل";
+
+/* Class = "UILabel"; text = "Add Item "; ObjectID = "dF7-QQ-9h4"; */
+"dF7-QQ-9h4.text" = "اضافة عنصر جديد";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "s4f-1h-eOH"; */
+"s4f-1h-eOH.normalTitle" = "الغاء";

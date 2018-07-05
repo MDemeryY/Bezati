@@ -1,0 +1,18 @@
+
+/* Class = "UITextField"; placeholder = "expense name"; ObjectID = "5fI-8w-iPM"; */
+"5fI-8w-iPM.placeholder" = "expense name";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "GhA-99-E1O"; */
+"GhA-99-E1O.normalTitle" = "Cancel";
+
+/* Class = "UIButton"; normalTitle = "Add"; ObjectID = "NwI-Ww-vin"; */
+"NwI-Ww-vin.normalTitle" = "Add";
+
+/* Class = "UIButton"; normalTitle = "Expense"; ObjectID = "UXl-j6-cAc"; */
+"UXl-j6-cAc.normalTitle" = "Expense";
+
+/* Class = "UILabel"; text = "Add Expense Category "; ObjectID = "kZf-wG-Fgk"; */
+"kZf-wG-Fgk.text" = "Add Expense Category ";
+
+/* Class = "UITextField"; placeholder = "value"; ObjectID = "vv7-mj-rsq"; */
+"vv7-mj-rsq.placeholder" = "value";

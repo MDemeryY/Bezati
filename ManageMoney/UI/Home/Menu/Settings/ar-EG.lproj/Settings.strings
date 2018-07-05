@@ -1,0 +1,24 @@
+
+/* Class = "UIButton"; normalTitle = "DAY"; ObjectID = "NAc-cF-i5X"; */
+"NAc-cF-i5X.normalTitle" = "اليوم";
+
+/* Class = "UIButton"; normalTitle = "Export File"; ObjectID = "YQZ-bE-5zR"; */
+"YQZ-bE-5zR.normalTitle" = "ملف التصدير";
+
+/* Class = "UIButton"; normalTitle = "Create Data Backup"; ObjectID = "gja-6c-zxu"; */
+"gja-6c-zxu.normalTitle" = "إنشاء نسخ احتياطي للبيانات";
+
+/* Class = "UIButton"; normalTitle = "Change Your Password"; ObjectID = "hgj-7o-0Dc"; */
+"hgj-7o-0Dc.normalTitle" = "تغير كلمه المرور";
+
+/* Class = "UIButton"; normalTitle = "Daily Alert"; ObjectID = "ipu-V2-ARQ"; */
+"ipu-V2-ARQ.normalTitle" = "تنبيه يومي";
+
+/* Class = "UILabel"; text = "BudgetValue"; ObjectID = "iuk-cO-Z0g"; */
+"iuk-cO-Z0g.text" = "0.0";
+
+/* Class = "UILabel"; text = "Budget "; ObjectID = "tCE-mI-A5b"; */
+"tCE-mI-A5b.text" = "الميزانيه ";
+
+/* Class = "UIButton"; normalTitle = "Delete Database"; ObjectID = "xov-RV-Psa"; */
+"xov-RV-Psa.normalTitle" = "حذف جميع البيانات";

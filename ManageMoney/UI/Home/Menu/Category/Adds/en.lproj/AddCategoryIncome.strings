@@ -1,0 +1,18 @@
+
+/* Class = "UITextField"; placeholder = "value"; ObjectID = "9Te-Ak-nsS"; */
+"9Te-Ak-nsS.placeholder" = "value";
+
+/* Class = "UILabel"; text = "Add Income Category "; ObjectID = "Agp-DS-0iI"; */
+"Agp-DS-0iI.text" = "Add Income Category ";
+
+/* Class = "UIButton"; normalTitle = "Income"; ObjectID = "JSh-xQ-KUu"; */
+"JSh-xQ-KUu.normalTitle" = "Income";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "PUW-eU-Dgt"; */
+"PUW-eU-Dgt.normalTitle" = "Cancel";
+
+/* Class = "UIButton"; normalTitle = "Add"; ObjectID = "fq0-vV-Ll8"; */
+"fq0-vV-Ll8.normalTitle" = "Add";
+
+/* Class = "UITextField"; placeholder = "income name"; ObjectID = "okz-Ry-bSr"; */
+"okz-Ry-bSr.placeholder" = "income name";

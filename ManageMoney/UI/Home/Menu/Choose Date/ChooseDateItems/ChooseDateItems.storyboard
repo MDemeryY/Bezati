@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VlG-Y2-Wnr">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Day Items View Controller-->
+        <scene sceneID="jti-Kk-pOu">
+            <objects>
+                <viewController storyboardIdentifier="chooseDay" id="VlG-Y2-Wnr" customClass="DayItemsViewController" customModule="ManageMoney" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5d2-PB-8WE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xSz-p0-LDP">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3tj-1q-S0u" firstAttribute="trailing" secondItem="xSz-p0-LDP" secondAttribute="trailing" id="FIa-FS-IpB"/>
+                            <constraint firstItem="3tj-1q-S0u" firstAttribute="bottom" secondItem="xSz-p0-LDP" secondAttribute="bottom" id="HHO-i0-Qua"/>
+                            <constraint firstItem="xSz-p0-LDP" firstAttribute="leading" secondItem="3tj-1q-S0u" secondAttribute="leading" id="ob9-1y-mJH"/>
+                            <constraint firstItem="xSz-p0-LDP" firstAttribute="top" secondItem="3tj-1q-S0u" secondAttribute="top" id="yGA-pp-zDW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3tj-1q-S0u"/>
+                    </view>
+                    <connections>
+                        <outlet property="dateChooseTableView" destination="xSz-p0-LDP" id="YvB-6N-4xZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cCb-Vv-Pig" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="12" y="81"/>
+        </scene>
+    </scenes>
+</document>

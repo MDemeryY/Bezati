@@ -1,0 +1,39 @@
+
+/* Class = "UIButton"; normalTitle = "Setting"; ObjectID = "8su-cL-t8w"; */
+"8su-cL-t8w.normalTitle" = "Setting";
+
+/* Class = "UIButton"; normalTitle = "Monthly Sataics"; ObjectID = "P4g-DI-Itw"; */
+"P4g-DI-Itw.normalTitle" = "Monthly Sataics";
+
+/* Class = "UIButton"; normalTitle = "Calender"; ObjectID = "Rvr-3X-oBc"; */
+"Rvr-3X-oBc.normalTitle" = "Calender";
+
+/* Class = "UITabBarItem"; title = "MONTHLY"; ObjectID = "XGw-GZ-A1q"; */
+"XGw-GZ-A1q.title" = "MONTHLY";
+
+/* Class = "UITabBarItem"; title = "DAILY"; ObjectID = "XTw-t8-D3h"; */
+"XTw-t8-D3h.title" = "DAILY";
+
+/* Class = "UITabBarItem"; title = "WEEKLY"; ObjectID = "ZhG-SN-qlG"; */
+"ZhG-SN-qlG.title" = "WEEKLY";
+
+/* Class = "UIButton"; normalTitle = "My Account"; ObjectID = "aLQ-m9-80a"; */
+"aLQ-m9-80a.normalTitle" = "My Account";
+
+/* Class = "UIButton"; normalTitle = "Expect"; ObjectID = "dMN-Yw-ygI"; */
+"dMN-Yw-ygI.normalTitle" = "Expect";
+
+/* Class = "UIButton"; normalTitle = "Category"; ObjectID = "eW2-GM-MEx"; */
+"eW2-GM-MEx.normalTitle" = "Category";
+
+/* Class = "UIButton"; normalTitle = "Account"; ObjectID = "kvj-kH-JS7"; */
+"kvj-kH-JS7.normalTitle" = "Account";
+
+/* Class = "UIButton"; normalTitle = "Choose Date"; ObjectID = "mCB-WC-dn3"; */
+"mCB-WC-dn3.normalTitle" = "Choose Date";
+
+/* Class = "UITabBarItem"; title = "CALENDAR"; ObjectID = "vXf-Fm-0v3"; */
+"vXf-Fm-0v3.title" = "CALENDAR";
+
+/* Class = "UILabel"; text = "Setting"; ObjectID = "znY-Fx-xcx"; */
+"znY-Fx-xcx.text" = "Setting";

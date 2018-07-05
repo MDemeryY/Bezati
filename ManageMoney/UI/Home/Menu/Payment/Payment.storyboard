@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="75v-7J-YUU">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Payment View Controller-->
+        <scene sceneID="lKM-EV-5S6">
+            <objects>
+                <viewController storyboardIdentifier="payment" id="75v-7J-YUU" customClass="PaymentViewController" customModule="ManageMoney" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iaY-e9-KNZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xV4-4g-PwU">
+                                <rect key="frame" x="100" y="120" width="175" height="40"/>
+                                <color key="backgroundColor" red="0.834215343" green="0.86152261500000005" blue="0.93626350160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="x0q-Hz-TGM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Cash">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cKh-PS-dhV">
+                                <rect key="frame" x="100" y="180" width="175" height="40"/>
+                                <color key="backgroundColor" red="0.834215343" green="0.86152261500000005" blue="0.93626350160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Credit Card">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rSg-5Z-i4C">
+                                <rect key="frame" x="167.5" y="240" width="40" height="40"/>
+                                <color key="backgroundColor" red="0.834215343" green="0.86152261500000005" blue="0.93626350160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="b0e-tB-0Py"/>
+                                    <constraint firstAttribute="width" constant="40" id="cMW-U4-jb9"/>
+                                </constraints>
+                                <state key="normal" image="icons8-plus-50"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SBC-lJ-76t">
+                                <rect key="frame" x="0.0" y="320" width="190" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.73725490199999999" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="slX-h3-iLi"/>
+                                </constraints>
+                                <state key="normal" title="Transfer">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cKh-PS-dhV" firstAttribute="width" secondItem="xV4-4g-PwU" secondAttribute="width" id="15h-Ry-Dsg"/>
+                            <constraint firstItem="cKh-PS-dhV" firstAttribute="height" secondItem="xV4-4g-PwU" secondAttribute="height" id="5uy-pn-6nQ"/>
+                            <constraint firstItem="cKh-PS-dhV" firstAttribute="top" secondItem="xV4-4g-PwU" secondAttribute="bottom" constant="20" id="EN5-BQ-0e2"/>
+                            <constraint firstItem="rSg-5Z-i4C" firstAttribute="centerX" secondItem="cKh-PS-dhV" secondAttribute="centerX" id="Fu3-fH-4wa"/>
+                            <constraint firstItem="G03-dc-Jfi" firstAttribute="trailing" secondItem="SBC-lJ-76t" secondAttribute="trailing" constant="185" id="Svs-j0-OMg"/>
+                            <constraint firstItem="xV4-4g-PwU" firstAttribute="leading" secondItem="G03-dc-Jfi" secondAttribute="leading" constant="100" id="TYm-nQ-HGa"/>
+                            <constraint firstItem="SBC-lJ-76t" firstAttribute="leading" secondItem="G03-dc-Jfi" secondAttribute="leading" id="UC2-9M-yws"/>
+                            <constraint firstItem="cKh-PS-dhV" firstAttribute="leading" secondItem="xV4-4g-PwU" secondAttribute="leading" id="c5M-pL-Gls"/>
+                            <constraint firstItem="rSg-5Z-i4C" firstAttribute="top" secondItem="cKh-PS-dhV" secondAttribute="bottom" constant="20" id="dl6-Lj-MHE"/>
+                            <constraint firstItem="G03-dc-Jfi" firstAttribute="trailing" secondItem="xV4-4g-PwU" secondAttribute="trailing" constant="100" id="eWy-K0-Qne"/>
+                            <constraint firstItem="xV4-4g-PwU" firstAttribute="top" secondItem="G03-dc-Jfi" secondAttribute="top" constant="100" id="lkI-KZ-8lQ"/>
+                            <constraint firstItem="cKh-PS-dhV" firstAttribute="trailing" secondItem="xV4-4g-PwU" secondAttribute="trailing" id="utK-GL-4Ot"/>
+                            <constraint firstItem="SBC-lJ-76t" firstAttribute="top" secondItem="rSg-5Z-i4C" secondAttribute="bottom" constant="40" id="yKy-aK-Qw5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="G03-dc-Jfi"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bdD-9L-mZp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="29.600000000000001" y="46.326836581709152"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icons8-plus-50" width="50" height="50"/>
+    </resources>
+</document>

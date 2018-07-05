@@ -1,0 +1,56 @@
+/* 
+  Localizable.strings
+  ManageMoney
+
+  Created by admin101 on 4/14/18.
+  Copyright © 2018 demi. All rights reserved.
+*/
+
+
+
+"Login" = "Login" ;
+"Forget Password ?" = "Forget Password ?" ;
+"Creat New account" = "Creat New account" ;
+"Enter Email " = "Enter Email" ;
+"Enter Password" = "Enter Password" ;
+"LOGIN" = "LOGIN" ;
+"Password" = "Password";
+"Starday" = "Starday";
+"Email" = "Email";
+"USD" = "USD";
+"Registration" = "Registration";
+"Register" = "Register";
+"Item" = "Item";
+"Name" = "Name";
+"Enter your Mail " = "Enter your Mail ";
+"Forget Password" = "Forget Password";
+"Item" = "Item" ;
+"Send" = "Send" ;
+"Setting" = "Setting" ;
+"Monthly Sataics" = "Monthly Sataics" ;
+"Calender" = "Calender" ;
+"MONTHLY" = "MONTHLY" ;
+"DAILY" = "DAILY" ;
+"WEEKLY" = "WEEKLY" ;
+"My Account" = "My Account" ;
+"Expect" = "Expect" ;
+"Category" = "Category" ;
+"Account" = "Account" ;
+"Choose Date" = "Choose Date" ;
+"CALENDAR" = "CALENDAR" ;
+"Setting" = "Setting" ;
+"Email" = "Email";
+"USD" = "USD" ;
+"Name" = "Name";
+"UPDATE" = "UPDATE";
+"Expense" = "Expense" ;
+"Add" = "Add";
+"Enter item Name" = "Enter item Name";
+"Add Note ..." = "Add Note ...";
+" Price " = " Price ";
+"Income" = "Income";
+"Add Item " = "Add Item ";
+"Cancel" = "Cancel";
+
+
+

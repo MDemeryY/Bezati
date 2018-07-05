@@ -1,0 +1,21 @@
+
+/* Class = "UIButton"; normalTitle = "Forget Password ?"; ObjectID = "EvE-tA-AF6"; */
+"EvE-tA-AF6.normalTitle" = "Forget Password ?";
+
+/* Class = "UINavigationItem"; title = "Login"; ObjectID = "Rbe-2I-VWF"; */
+"Rbe-2I-VWF.title" = "Login";
+
+/* Class = "UILabel"; text = "Don't have an account?  "; ObjectID = "dtF-6N-PzX"; */
+"dtF-6N-PzX.text" = "Don't have an account?  ";
+
+/* Class = "UITextField"; placeholder = "Email "; ObjectID = "hMn-Uw-xlz"; */
+"hMn-Uw-xlz.placeholder" = "Email ";
+
+/* Class = "UIButton"; normalTitle = "SignUp"; ObjectID = "qhU-1Z-Gi1"; */
+"qhU-1Z-Gi1.normalTitle" = "SignUp";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "sie-FR-PLS"; */
+"sie-FR-PLS.placeholder" = "Password";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "vbp-Pa-5Ad"; */
+"vbp-Pa-5Ad.normalTitle" = "Login";

@@ -1,0 +1,21 @@
+
+/* Class = "UIButton"; normalTitle = "Delete"; ObjectID = "44Z-8M-erN"; */
+"44Z-8M-erN.normalTitle" = "مسح";
+
+/* Class = "UIButton"; normalTitle = "Expence"; ObjectID = "Da9-ZY-DM6"; */
+"Da9-ZY-DM6.normalTitle" = "المستهلك";
+
+/* Class = "UIButton"; normalTitle = "Update"; ObjectID = "SZe-2M-NJO"; */
+"SZe-2M-NJO.normalTitle" = "تعديل";
+
+/* Class = "UITextField"; placeholder = "Item Name"; ObjectID = "hzj-nm-9dP"; */
+"hzj-nm-9dP.placeholder" = "اسم العنصر";
+
+/* Class = "UITextField"; placeholder = "Price"; ObjectID = "myZ-2J-rGv"; */
+"myZ-2J-rGv.placeholder" = "السعر";
+
+/* Class = "UITextField"; placeholder = "Notes"; ObjectID = "qt3-cF-BJc"; */
+"qt3-cF-BJc.placeholder" = "ملاحظات";
+
+/* Class = "UIButton"; normalTitle = "Income"; ObjectID = "y1w-bD-dAN"; */
+"y1w-bD-dAN.normalTitle" = "الدخل";
